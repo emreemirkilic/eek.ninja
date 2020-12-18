@@ -1,0 +1,113 @@
+html, body{
+    background-color: #1f1b24;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -300px;
+    margin-left: -250px;
+    background-color:#121212;
+    width: 500px;
+    height: 600px;
+    border: 1px solid #1f1b24;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: 8px solid #3700b3;
+}
+p{
+  color:#f5f5f5;
+}
+div.me{
+    width: 200px;
+    margin-left: 150px;
+    height: 200px;
+    text-align: center;
+    color: #3700b3;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    transition-property: 0;
+    transition-duration: 0.25s;
+}
+div.me:hover{
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.40);
+}
+#self{
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #3700b3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#self:hover{
+    transition-property: 0;
+    transition-duration: 0.25s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+div.content{
+    width: 100%;
+    height: 315px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.social{
+    width: 500px;
+    height: 30px;
+}
+
+div.social img{
+    padding: 15px;
+    text-align: center;
+    transition-property: 0;
+    transition-duration: 0.25s;
+    border-radius: 16px;
+}
+div.social img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+div.about{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 400px;
+    padding-left: 50px;
+}
+
+  ul.skills>li:before {
+    content:'🞄';
+    position: relative;
+    top: 1px;
+    left: -3px;
+  }
+  a{
+    color:  #3700b3; 
+    transition-property: 0;
+    transition-duration: 0.25s;
+  }
+  a:link {
+    text-decoration: none;
+    color:  #3700b3; 
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:  #3700b3; 
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:  #3700b3; 
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  a:active {
+    text-decoration: none;
+    color:  #0aab5b; 
+  }
