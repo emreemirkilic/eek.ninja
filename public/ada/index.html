@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adayı eve atma sitesi</title>
+        <meta charset="utf-8">
+    </head>
+    <body bgcolor="#1f1b24">
+        <div>
+            <h1 style="color:#c5c5c5; text-align: center;">
+                ada bize gelsin, lütfen
+            </h1>
+            <button style="margin-left: 10%; margin-right: 1%;" onclick="evet()">
+                evet
+            </button>
+            <button onclick="evet()">
+                evet
+            </button>
+            <p id="result">
+            </p>
+        </div>
+        <style>
+            p, h1{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+                font-size:x-large;
+            }
+            p{
+                font-size: medium;
+                text-align: center;
+                margin: auto;
+                margin-top: 5%;
+                color: rgb(3, 169, 22);
+            }
+            button{
+                margin-top: 5%;
+                width: 200px;
+                height: 50px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            div{
+                width: 500px; 
+                height: 175px; 
+                position: inherit; 
+                margin: auto; 
+                margin-top: 350px; 
+                background-color: #1b1b1b; 
+                padding: 15px; 
+                padding-top: 30px;
+                border-radius: 5px;
+            }
+        </style>
+        <script>
+            var result = document.getElementById('result');
+            function evet(){
+                result.innerHTML = "harika";
+            }
+        </script>
+    </body>
+</html>
